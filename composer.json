@@ -1,0 +1,29 @@
+{
+  "name": "johnatas-x/grumphp-mago",
+  "description": "Execute Mago in a GrumPHP task.",
+  "type": "library",
+  "homepage": "https://github.com/johnatas-x/grumphp-mago",
+  "license": "proprietary",
+  "require": {
+    "phpro/grumphp": "2.20.0",
+    "carthage-software/mago": "1.24.0"
+  },
+  "authors": [
+    {
+      "name": "Johnatas",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/johnatas-x/grumphp-mago/issues",
+    "source": "https://github.com/johnatas-x/grumphp-mago"
+  },
+  "autoload": {
+    "psr-4": {"GrumphpMago\\": "src/"}
+  },
+  "config": {
+    "allow-plugins": {
+      "phpro/grumphp": true
+    }
+  }
+}

@@ -1,0 +1,4 @@
+composer.lock
+grumphp.yml
+/vendor/
+.idea

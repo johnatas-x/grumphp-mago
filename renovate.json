@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":assignee(arg0)",
+    ":reviewer(arg0)"
+  ],
+  "assignees": ["johnatas-x"],
+  "prHourlyLimit": 3
+}
