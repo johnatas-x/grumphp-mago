@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> This extension is temporary.
+> 
+> It allows using Mago with GrumPHP in a simple (though somewhat unconventional) way while waiting for the merge of [this PR](https://github.com/phpro/grumphp/pull/1216) into a release.
+> 
+> Once that happens, this extension will become outdated.
+
 # Description
 
 This repository adds a task for GrumPHP that launches [mago](https://github.com/carthage-software/mago).
